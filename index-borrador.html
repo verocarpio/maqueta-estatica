@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css/boostrap/fontawesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/089e20fdff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
+</head>
+<body >
+<!-- navbar -->
+    <section id="navbar" >
+        <nav class="navbar navbar-expand-lg bg-fondo ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/"target="_blank" rel="noopener noreferrer">
+                <img class="logo" src="assets/img/APLogo-20-20.png" alt="logo-argentina-programa" width="15%" height="10%">
+              </a>
+              <ul class="items list-group list-group-horizontal ">
+                <li class="list-group-item ">
+                  <a href="https://www.linkedin.com/in/veronica-carpio-334352252/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-lg fa-linkedin  "></i>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://github.com/verocarpio" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://www.instagram.com/verocarpio_/" target="_blank" rel="noopener noreferrer" >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+
+
+                                               <!-- botones para login -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-btn-light" data-bs-toggle="modal"data-bs-target="#loginModal">
+                    <i class="fa-solid fa-lock"></i>
+                  </button>
+                 
+              
+                  <button type="button" class="btn-btn-light" data-bs-toggle="modal"
+                  data-bs-target="#loginModal">
+                  <i class="fa-solid fa-lock"></i>
+                   </button>
+
+
+<!--******************************************************* -->  
+    <!-- modales -->
+      <!-- Modal login -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="loginModalLabel">Iniciar sesion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+    
+    
+                <!-- formulario/login/-->
+                <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+    
+                    
+    
+    
+            
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              
+              <button type="submit" class="btn btn-primary">Guardar</button>
+                  
+            </div>
+        </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+
+      </div>
+    </div>
+   </nav>
+     
+ </section>
+ 
+<!-- Banner -->
+    <div id="carouselExample" class="carousel slide ">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/banner-2.jpg" class="d-block w-100" alt="banner">
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- sobre mi -->
+    <section id="sobre-mi" class="border">
+       
+    <div class="container text-center ">
+      <div class="row ">
+        <div class="col-6 ">
+          <div class="img position-absolute top-5 start-20 bottom-30 translate-middle">
+            <a >
+            <img class="imgPerfil rounded-circle" src="assets/img/foto-editada.jpg"    alt="veronica carpio" title="imagen veronica carpio">
+            </a>
+        </div>
+        <h2 class="saludo text-center mt-4 pb-3 titulo">Hola soy</h2>
+        <h1 class="nombrePerfil">
+          Carpio Verónica
+        </h1>
+      </div>
+      <div class="col-6 text-center presentacion ">
+        <p>
+              <strong>Actualmente resido en la ciudad de La Rioja, Argentina. Mi formación está orientada a 
+              humanidades, precisamente en la rama artistica. Sin embargo,encontre en la programación
+              un paralelismo que une la creatividad con el mundo informático y su propia lógica, este 
+              interes me llevó a incursionar a través  cursos de programación como #sé programar y #yoprogramo
+              para de esta manera aumentar mis conocimientos.</strong>
+        </p>
+      </div>
+      </div>
+    
+ 
+  </div>
+</section>
+
+
+  <!--edicion/sobre-mi  -->
+ <section id="edit-sobre-mi" class="p-4">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+    <!-- Button trigger modal -->
+        <button type="button" class=" btn-btn-light" data-bs-toggle="modal"
+          data-bs-target="#imgPerfilModal">
+          Editar imagen
+        </button>
+           </div>
+
+          <div class="col">
+            <button  type="button" class="btn-btn-light" data-bs-toggle="modal" data-bs-target="#editnombreModal" >
+              Editar nombre
+
+            </button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="btn-btn-light" data-bs-toggle="modal" data-bs-target="#ediinformacionModal" >
+              Editar información
+            </button>
+          </div>
+        </div>
+      </div>
+  <!-- Modal editar  imagen del perfil -->
+  <div class="modal fade" id="imgPerfilModal" tabindex="-1" aria-labelledby="imgPerfilModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="imgPerfilModal">Editar imagen</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- formulario -->
+      <form>
+              <div class="mb-3">
+                <label for="imgPerfil" class="form-label">Editar</label>
+                <input type="url" placeholder="Inserte url" id="imgPerfil" name="imgPerfil" required>
+              </div>
+    <!-- botones cerrar y guardar -->  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </div>
+      </form>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Modal editar nombre -->
+  <div class="modal fade" id="editnombreModal" tabindex="-1" aria-labelledby="editnombreModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editnombreModal">Editar nombre</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- formulario -->
+      <form>
+              <div class="mb-3">
+                <label for="imgPerfil" class="form-label">Editar</label>
+                <input type="text" placeholder="Inserte nombre" id="editnombreModal" name="editnombreModal" required>
+              </div>
+    <!-- botones cerrar y guardar -->  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </div>
+      </form>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+   <!-- Modal editar  presentacion -->
+   <div class="modal fade" id="ediinformacionModal" tabindex="-1" aria-labelledby="ediinformacionModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="ediinformacionModal">Editar presentacion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- formulario -->
+      <form>
+        <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Editar</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+    <!-- botones cerrar y guardar -->  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </div>
+      </form>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+
+    
+
+
+    </section>
+    <!-- experiencia -->
+    <section id="experiencia">
+      <h2 class="text-center titulo">Experiencia</h2>
+      <div class="container text-center  ">
+        <div class="row">
+          <div class="col-4">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+          <div class="col-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </div>
+          <div class="col-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </div>
+
+          <!--botones/edicion-->
+          <div class="col-1">
+            <button class="casa">
+              <ul class="list-group list-group-horizontal">
+                <!--boton editar experiencia-->
+                <li class="list-group-item" type="button" data-bs-toggle="modal" data-bs-target="#editexpModal">
+                  <i class="fa-solid fa-pen"></i>
+                </li>
+                 <!--boton eliminar experiencia-->
+                <li class="list-group-item" type="button" data-bs-toggle="modal" data-bs-target="#eliminarexpModal">
+                  <i class="fa-solid fa-trash-can" ></i>
+                </li>
+                
+              </ul>
+            </button>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- Modal editar  experiencia -->
+   <div class="modal fade" id="editexpModal" tabindex="-1" aria-labelledby="editexpModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editexpModal">Editar</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- formulario -->
+      <form>
+      <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Editar Experiencia</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+              
+    <!-- botones cerrar y guardar -->  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </div>
+      </form>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <!-- Modal eliminar  experiencia -->
+  
+  <div class="modal fade" id="eliminarexpModal" tabindex="-1" aria-labelledby="eliminarexpModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="eliminarexpModal">Borrar Experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- formulario -->
+      <form>
+              <div class="mb-3">
+                <label for="eliminarexpModal" class="form-label">¿Desea eliminar experiencia?</label>
+                <input type="hidden" placeholder="Inserte texto" id="eliminarexpModal" name="eliminarexpModal" required>
+              </div>
+    <!-- botones cerrar y guardar -->  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Eliminar
+          </button>
+        </div>
+      </form>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+    </section>
+        <!-- educacion -->
+        <section id="educacion">
+          <h2 class="text-center titulo">Educación</h2>
+          <div class="container text-center">
+             <!--educacion primer item-->
+            <div class="row">
+              <div class="col-1 ">
+               <img src="assets/img/logo-universidad.png" width="70%">
+                </div>
+              <div class="col-10">
+                <div >
+                <strong>Universidad Nacional de La Rioja</strong>
+              </div>
+                <p>
+                 2016-2021.
+                </p>
+                </div>
+                
+                   <!--botones/edicion-->
+                   <div class="col-1">
+                    <button class="casa">
+                      <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item" type="button" data-bs-toggle="modal" data-bs-target="#educacionModal">
+                          <i class="fa-solid fa-pen"></i>
+                        </li>
+                        <li class="list-group-item"  type="button" data-bs-toggle="modal" data-bs-target="#eliminaeducModal">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </li>
+                      </ul>
+                    </button>
+                  </div>
+
+                  <!--educacion segundo item-->
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/img/logoArgenPrograma.jpg" width="95%" >
+                     </div>
+                  <div class="col-10">
+                    <div >
+                      <strong>#Sé programar</strong>  
+                    </div>
+                    <p>
+                      2022
+                    </p>
+                    </div>
+                  </div>
+                  
+                    <!--educacion tercer item-->
+                    <div class="row">
+                      <div class="col-1 ">
+                        <img src="assets/img/codo-a-codo.png" width="95%">
+                         </div>
+                      <div class="col-10">
+                        <div >
+                          <strong>CodoaCodo inicial</strong>  
+                        </div>
+                        <p>
+                          2022
+                        </p>
+                        </div>
+                      </div>
+                    <!--educacion cuarto item-->
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/img/logoArgenPrograma.jpg" width="95%" >
+                     </div>
+                  <div class="col-10">
+                    <div >
+                      <strong>#Yo programo</strong>  
+                    </div>
+                    <p>
+                      2022-2023
+                    </p>
+                    </div>
+                  </div>
+
+
+                    </div>
+           <!-- Modal editar  educacion -->
+       <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="educacionModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="educacionModal">Editar</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- formulario -->
+          <form>
+          <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Editar Educacion</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+                  
+        <!-- botones cerrar y guardar -->  
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <button type="submit" class="btn btn-primary">
+                Guardar
+              </button>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal eliminar  educacion -->
+      
+      <div class="modal fade" id="eliminaeducModal" tabindex="-1" aria-labelledby="eliminaeducModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="eliminaeducModal">Borrar educacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- formulario -->
+          <form>
+                  <div class="mb-3">
+                    <label for="eliminarexpModal" class="form-label">¿Desea eliminar educacion?</label>
+                    <input type="hidden" placeholder="Inserte texto" id="eliminarexpModal" name="eliminarexpModal" required>
+                  </div>
+        <!-- botones cerrar y guardar -->  
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <button type="submit" class="btn btn-primary">
+                Eliminar
+              </button>
+            </div>
+          </form>
+        
+          </div>
+        </div>
+        </div>
+      </div>
+    
+        
+          
+    
+        </section>
+
+
+    <!-- proyectos -->
+    <section id="proyects">
+      <h2 class="text-center titulo">Proyectos</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+           <!--botones/edicion-->
+           <div class="col-1">
+            <button class="casa">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><i class="fa-solid fa-pen"></i></li>
+                <li class="list-group-item"><i class="fa-solid fa-trash-can"></i></li>
+                
+              </ul>
+            </button>
+            </div>
+
+        </div>
+      </div>
+
+    </section>
+   
+    
+
+
+
+    <!--seccion hard y soft skills-->
+    <section class="skills">
+      <h1 class="titulo-skills titulo">Hard y soft skills </h1>
+      <div class="container letra-subtitulo">
+        <div class="row">
+          <div class="col-3 text-center">
+            <div>Html </div>
+            <div class="progress-circle progress-85"><span>85</span></div>
+            <div class="container-fluid d-flex justify-content-center">
+              <div class="row">
+                <div class="col-6">
+        <!-- Button trigger modal/boton editar/skill -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+          <i class="fa-solid fa-pencil"></i>
+        </button>
+                        </div>
+                    <div class="col-6">
+              <!-- Button trigger modal/boton eliminar/skill -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal2">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            
+        <!-- final de seccion skill con circulos y botones -->
+          
+        <!-- Modal/editar /skills -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modal1">Modal 1</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                esto es una ventana 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+<!-- segunda ventana Modal/eliminar/ skills -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--******************************************************* -->
+
+          <div class="col-3 text-center">
+            <div >Css</div>
+            <div class="progress-circle progress-85"><span>85</span></div>
+            <div class="container-fluid d-flex justify-content-center">
+              <div class="row">
+                <div class="col-6">
+        <!-- Button trigger modal/boton editar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+  <i class="fa-solid fa-pencil"></i>
+</button>
+                </div>
+                <div class="col-6">
+        <!-- Button trigger modal/boton eliminar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal2">
+  <i class="fa-solid fa-trash"></i>
+</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal/editar -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal1">Modal 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- segunda ventana Modal/eliminar -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--******************************************************* -->
+          <div class="col-3 text-center">
+            <div>Javascript</div>
+            <div class="progress-circle progress-85"><span>85</span></div>
+            <div class="container-fluid d-flex justify-content-center">
+              <div class="row">
+                <div class="col-6">
+        <!-- Button trigger modal/boton editar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+  <i class="fa-solid fa-pencil"></i>
+</button>
+                </div>
+                
+                <div class="col-6">
+        <!-- Button trigger modal/boton eliminar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal2">
+  <i class="fa-solid fa-trash"></i>
+</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Modal/editar -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal1">Modal 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- segunda ventana Modal/eliminar -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambio</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--******************************************************* -->
+
+          <div class="col-3 text-center">
+            <div>Phyton</div>
+            <div class="progress-circle progress-85"><span>85</span></div>
+            <div class="container-fluid d-flex justify-content-center">
+              <div class="row">
+                <div class="col-6">
+        <!-- Button trigger modal/boton editar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+  <i class="fa-solid fa-pencil"></i>
+</button>
+                </div>
+                
+                <div class="col-6">
+        <!-- Button trigger modal/boton eliminar/skill -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal2">
+  <i class="fa-solid fa-trash"></i>
+</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal/editar -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal1">Modal 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- segunda ventana Modal/eliminar -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        esto es una ventana 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        </div>
+
+      </div>
+
+   
+
+
+      
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+  
+
+  <!--******************************************************* -->
+       <!-- pie de página o footer-->
+<footer class="seccion-oscura  d-flex flex-column align-items-center justify-content-center">
+  <div> &#169; 2023 Creado por Carpio María Verónica </div>
+</footer>
+
+
+
+ 
+ 
+
+    <!-- javascript/boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
