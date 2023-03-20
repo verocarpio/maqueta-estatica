@@ -1,0 +1,194 @@
+/* index 2 */
+
+
+
+/* navbar o barra de navegacion */
+#navbar{
+    background-color: #f9f9f9;
+}
+
+.items {
+    
+    font-size: 28px;
+}
+.logo{
+    filter: invert();
+}
+.bg-fondo{
+    background-color: #6710f20f;
+}
+.fa-linkedin{
+    color:  #2b036bb9;
+}
+.fa-github{
+
+    color:  #2b036bb9;
+}
+.fa-instagram{
+    color:  #2b036bb9;
+}
+ 
+.fa-brands:hover{
+    color: #A370F7;
+    
+}
+#redes{
+    text-align: center;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+    margin-left: -3.5%;
+}
+
+/* seccion presentacion o sobre mi */
+
+.presentacion{
+    padding: 5%;
+}
+.nombrePerfil {
+    font-size: 5rem;
+    font-family: 'Stick No Bills', sans-serif;
+    padding: 5%;
+
+}
+.img{
+    justify-content: left;
+    display: flex;
+}
+#sobre-mi{
+    background-color: #e0f9f7a9;
+      
+}
+.imgPerfil{
+    box-shadow: 6px 6px 5px 2px rgb(186, 223, 215);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* edicion body o desarrollo */
+
+.titulo{
+    font-size: 2rem;
+    font-family: 'Stick No Bills', sans-serif;
+}
+body{
+    background-image: url(../img/pantalla-imagen.jpg);
+}
+.letra-subtitulo{
+    font-size: 1.rem;
+    font-family: 'Stick No Bills', sans-serif;
+} 
+
+
+
+/* edicion seccion sobre mi y su panel de edicion  */
+#edit-sobre-mi{
+    background-color: #24043313;
+    
+}
+
+/*seccion footer o pie de pagina */
+.seccion-oscura{
+    background-color:#240433;
+    color: white;
+    padding: 1%;
+}
+
+
+
+
+
+
+/* ###########################################################################  */
+
+#experiencia{
+    background-color:  #a3f0cc78;
+    padding: 2%;
+    
+}
+
+
+#educacion{
+    background-color: #e0f9f79b;
+    padding: 2%;
+    
+}
+#proyects{
+    background-color:#a3f0cc78;
+    padding: 2%;
+    
+
+}
+
+
+
+
+
+
+
+/* seccion de skills */
+.skills{
+    padding: 3%;
+    
+}
+.skills-titulo{
+    position: center;
+    
+}
+.titulo-skills{
+    text-align: center;
+    padding: 2%;
+}
+
+.progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ebebeb; }
+
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+  
+ 
+  
+.progress-circle.progress-85:after {
+        background-image: linear-gradient(36deg, #b4518b 50%, transparent 50%, transparent), linear-gradient(270deg, #b4518b 50%, #ebebeb 50%, #ebebeb); }
+
+       
+ /* seccion de skills-color de fondo de ventana modal */
+.modal-content{
+    background-color: #eed5e3;
+}
